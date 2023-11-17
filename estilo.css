@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+
+}
+
+.menu {
+    background-color: #E1C7BA;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #271b1b;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+.section-style,
+.contato-style,
+.educacao-style,
+.certifi-style,
+.abili-style,
+.experi-style,
+.eu-style {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #EDE4DB;
+}
+
+.contato-style ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-style {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p{
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.menu a.active {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.menu a.active:hover {
+    color: #ffcc00;
+}
+
+.menu a.active,
+.menu a.active:hover {
+    transition: background-color 0.3s, color 0.3s;
+}
+h1{
+ color: rgb(20, 19, 19);
+}
+
