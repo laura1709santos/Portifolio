@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Adicione o script de rolagem suave
+ 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Adicione isso ao seu arquivo pop.js
+
     const linksMenu = document.querySelectorAll('.menu a');
 
     linksMenu.forEach(link => {
@@ -36,16 +36,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
-
-var vlibras = new window.VLibras.Widget({
-    rootPath: '/app',
-    personalization:
-      'https://vlibras.gov.br/app/vlibras-plugin/config/default_logo.json',
-    opacity: 0.5,
-    position: 'R',
-    avatar: 'random',
-  });
- 
-  

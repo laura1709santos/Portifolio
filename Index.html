@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-
     <title>Portfólio de Laura Oliveira Santos</title>
+    <script type="text/javascript">
+        function ajustaZoom() {
+            document.body.style.zoom = "95%";
+        }
+        function zoom() {            
+        let zoomValue = 2;
+            document.body.style.zoom = zoomValue;
+        }
+    </script>
+    
 </head>
-<body>
+<body onload="ajustaZoom()">
     <div class="container">
         <header class="footer-style">
-            <img src="laura Oliveira Santos.png" alt="Foto de Laura Oliveira Santos">
+            <button onclick="zoom()">Zoom</button>
+            <img src="foto.png" alt="Foto de Laura Oliveira Santos">
             <h1>Laura Oliveira Santos</h1>
         </header>
-
-     
 
         <nav class="menu">
             <ul>
@@ -72,7 +80,7 @@
             <p>Programadora: Contribuir com melhorias no sistema, realizando correções, criando recursos e trabalhando com a linguagem Delphi 9, trabalho em projetos de desenvolvimento que envolvem integração com bancos de dados SQL Server. A experiência na prática permitiu aprender e aplicar efetivamente essas tecnologias em um ambiente real de trabalho.</p>
         </section>
 
-        <section id="sobre-mim" class="section-style eu-style">
+        <section id="sobre-mim" class="section-style eu-style last-section">
           <h2>Sobre Mim</h2>
           <p>Olá! Meu nome é Laura Oliveira Santos, e sou uma entusiasta da tecnologia e estudante do curso de Sistemas para Internet na Fatec- Taquaritinga. Atualmente, estou no segundo semestre de 2023, frequentando as aulas no turno matutino.</p>
           <p>Minha jornada na área de tecnologia começou durante o curso técnico em Informática para Internet na ETEC "Dr. Adail Nunes da Silva", concluído entre 2020 e 2022. Desde então, venho aprimorando minhas habilidades e conhecimentos em desenvolvimento de software, com enfoque especial em linguagens como Python e Delphi.</p>
@@ -80,11 +88,18 @@
           <p>Além dos estudos, mantenho-me atualizada participando de programas de capacitação, como a Capacitação Python e DevSec oferecida pelo Coletivo Online, Instituto Coca-Cola.</p>
       </section>
       
-    </div>
+    
 
-    <footer>
-        <p> 2023 - LauraSantos</p>
-     </footer>
+      <footer>
+        <a href="https://github.com/laura1709santos"><img id="logo" src="github.png" alt="Logo do github"></a>
+        <a class="redeSocial" href="https://github.com/laura1709santos">laura1709santos</a>
+
+        <a href="https://www.linkedin.com/in/lauraosantos/"><img id="logo" src="linkedin.png" alt="Logo do linkedin"></a>
+        <a class="redeSocial" href="https://www.linkedin.com/in/lauraosantos/">Laura Santos</a>
+
+        <p>&copy; Laura Santos.</p>
+      </footer>
+    </div>
 
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -104,6 +119,4 @@
         avatar: "random",
     });
 </script>
-
-
 </html>
