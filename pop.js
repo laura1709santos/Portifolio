@@ -36,3 +36,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+document.getElementById('menu-icon').addEventListener('click', function() {
+    var navList = document.querySelector('nav ul');
+    navList.style.display = (navList.style.display === 'block' || navList.style.display === '') ? 'none' : 'block';
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var menuIcon = document.getElementById('menu-icon');
+    var hamburgerMenu = document.querySelector('.hamburger-menu');
+
+    menuIcon.addEventListener('click', function () {
+        hamburgerMenu.classList.toggle('show');
+    });
+});
